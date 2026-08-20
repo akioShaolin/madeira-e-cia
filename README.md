@@ -33,12 +33,12 @@ Usei tons de marrom e bege porque combinam com o nome da empresa, já que "Madei
 
 ## Como executar
 
-Para testar, coloque os arquivos em um servidor local, como XAMPP ou WAMP, e acesse o arquivo `index.php` pelo navegador.
+Para testar o projeto, utilizei o próprio servidor embutido do PHP. Baixei o PHP para Windows em formato `.zip`, extraí a pasta do PHP dentro da pasta do projeto e executei o `php.exe` pelo PowerShell.
 
-Exemplo no XAMPP:
+No meu caso, o comando usado foi:
 
-```text
-htdocs/madeira-e-cia-promocao/index.php
+```powershell
+& "C:\Users\pedro.sakuma\OneDrive - EcoPower Energia Solar\Área de Trabalho\madeira e cia\php-8.5.9-nts-Win32-vs17-x64\php.exe" -S localhost:8000
 ```
 
 Depois é só testar as três formas de pagamento.
